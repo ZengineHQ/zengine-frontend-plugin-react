@@ -1,0 +1,21 @@
+{
+  "name": "my-zengine-react-plugin",
+  "version": "0.0.1",
+  "description": "A Frontend Zengine Plugin",
+  "scripts": {
+    "start": "rm -rf ./dist/ && parcel serve src/*.html --https",
+    "build": "rm -rf ./dist/ && parcel build src/*.html && cd dist && rm ../dist.zip && zip -r ../dist.zip ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-copy-file": "github:tehpsalmist/parcel-plugin-copy-file"
+  },
+  "dependencies": {
+    "@zenginehq/zengine-sdk": "github:ZengineHQ/zengine-sdk",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
