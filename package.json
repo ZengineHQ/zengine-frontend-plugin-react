@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@zenginehq/zengine-sdk": "github:ZengineHQ/zengine-sdk",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
