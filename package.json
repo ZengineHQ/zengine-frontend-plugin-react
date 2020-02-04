@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@zenginehq/zengine-sdk": "github:ZengineHQ/zengine-sdk",
+    "firebase": "^2.3.2",
     "react": "latest",
     "react-dom": "latest"
   }
