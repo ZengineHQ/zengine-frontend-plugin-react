@@ -11,12 +11,15 @@
   "license": "MIT",
   "devDependencies": {
     "parcel": "^1.12.4",
-    "parcel-plugin-copy-file": "github:tehpsalmist/parcel-plugin-copy-file"
+    "parcel-plugin-copy-files": "0.0.3"
   },
   "dependencies": {
-    "@zenginehq/zengine-sdk": "github:ZengineHQ/zengine-sdk",
+    "@zenginehq/react-sdk": "latest",
     "firebase": "^2.3.2",
     "react": "latest",
     "react-dom": "latest"
-  }
+  },
+  "files-to-copy": [
+    "plugin.json"
+  ]
 }
