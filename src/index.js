@@ -18,7 +18,7 @@ export const App = props => {
 		znPluginData({
 			namespace: context.plugin.namespace,
 			method: 'get',
-			route: '/testabc',
+			route: '/your-backend-service-route',
 			options: {
 				params: {
 					id: context.workspace.forms[0].id
