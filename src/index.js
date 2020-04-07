@@ -25,36 +25,36 @@ export const App = props => {
 				}
 			}
 		}).then(() => {
-			znMessage(`Backend Service Success`, 'saved');
+			znMessage('Backend Service Success', 'saved');
 		}).catch(() => {
-			znMessage(`Backend Service Fail`, 'error');
+			znMessage('Backend Service Fail', 'error');
 		});
-	}
+	};
 
 	return <main style={{ padding: '20px' }}>
 		<h1 style={{ textAlign: 'center' }}>Hello Zengine!</h1>
 		<ul className="list-inline">
-		<li className="list-inline-item">
-			<Button theme="secondary" onClick={e => triggerContextRefresh()}>Refresh Context</Button>
-		</li>
-		<li className="list-inline-item">
-			<Button theme="primary" onClick={e => setShow(!show)}>
-				{show ? 'Hide' : 'Show'} Context Data
-			</Button>
-		</li>
-		<li className="list-inline-item">
-			<Button theme="success" onClick={e => getBackend()}>
+			<li className="list-inline-item">
+				<Button theme="secondary" onClick={e => triggerContextRefresh()}>Refresh Context</Button>
+			</li>
+			<li className="list-inline-item">
+				<Button theme="primary" onClick={e => setShow(!show)}>
+					{show ? 'Hide' : 'Show'} Context Data
+				</Button>
+			</li>
+			<li className="list-inline-item">
+				<Button theme="success" onClick={e => getBackend()}>
 				Query Backend
-			</Button>
-		</li>
+				</Button>
+			</li>
 		</ul>
 		{show && <pre>{JSON.stringify(context, null, 2)}</pre>}
-	</main>
-}
+	</main>;
+};
 
 render(
 	<ZnContextProvider>
 		<App />
 	</ZnContextProvider>,
 	document.getElementById('app')
-)
+);
