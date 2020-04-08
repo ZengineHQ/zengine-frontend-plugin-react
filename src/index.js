@@ -31,7 +31,7 @@ export const App = props => {
 		});
 	};
 
-	return <main style={{ padding: '20px' }}>
+	return <main className='p-3'>
 		<h1 style={{ textAlign: 'center' }}>Hello Zengine!</h1>
 		<ul className="list-inline">
 			<li className="list-inline-item">
