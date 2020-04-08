@@ -31,7 +31,7 @@ export const App = props => {
 		});
 	};
 
-  // use any bootstrap 4 classes + zengine-ui components! 👍 👌
+	// use any bootstrap 4 classes + zengine-ui components! 👍 👌
 	return <main className='p-3'>
 		<h1 style={{ textAlign: 'center' }}>Hello Zengine!</h1>
 		<ul className="list-inline">
