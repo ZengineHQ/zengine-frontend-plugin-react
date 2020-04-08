@@ -23,6 +23,9 @@
   },
   "dependencies": {
     "@zenginehq/react-sdk": "latest",
+    "@zenginehq/zengine-sdk": "latest",
+    "@zenginehq/zengine-ui": "^0.2.7",
+    "@zenginehq/zengine-ui-react": "latest",
     "firebase": "^2.3.2",
     "react": "latest",
     "react-dom": "latest"
