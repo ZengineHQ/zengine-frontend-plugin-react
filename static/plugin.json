@@ -1,0 +1,13 @@
+{
+  "icon": "icon-spinner icon-spin",
+  "views": [
+    {
+      "type": "settings",
+      "src": "/index.html"
+    },
+  	{
+	  "type": "fullPage",
+	  "src": "/index.html"
+	}
+  ]
+}
