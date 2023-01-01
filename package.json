@@ -19,7 +19,7 @@
     "eslint-plugin-promise": "latest",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "latest",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "parcel-plugin-copy-files": "0.0.3"
   },
   "dependencies": {
